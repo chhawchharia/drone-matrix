@@ -2,6 +2,8 @@ module github.com/drone-plugins/drone-matrix
 
 go 1.19
 
+toolchain go1.26.10
+
 require (
 	github.com/drone-plugins/drone-plugin-lib v0.4.0
 	github.com/drone/drone-template-lib v1.0.1-0.20201006172840-a58a3f26ebca
